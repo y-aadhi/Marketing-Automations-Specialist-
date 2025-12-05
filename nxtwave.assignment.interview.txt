@@ -1,0 +1,157 @@
+Task 1: Design Omnichannel Lead Nurturing Workflow
+
+Scenario Recap: NxtWave users sign up but often don’t complete their profile. You need to automate reminders across WhatsApp, SMS, and Email.
+
+Steps to Complete:
+
+Open diagrams.net
+ and create a new flowchart.
+
+Represent the workflow logic:
+
+Flowchart Outline:
+
+Start → Day 0 (Signup)
+→ Send WhatsApp, SMS, Email (parallel)
+
+Day 1 → Check profile completion
+
+If complete → Exit workflow → Send congratulatory message
+
+If incomplete → Continue to Reminder Loop
+
+Reminder Loop (Day 1–3):
+
+Send WhatsApp reminder
+
+If delivered → Wait 24h → Recheck profile
+
+If failed → Send SMS backup
+
+Repeat 3 days
+
+After Day 3 → Final Email Reminder → End workflow
+
+Use proper shapes:
+
+Ovals → Start/End
+
+Rectangles → Actions
+
+Diamonds → Decision points
+
+Arrows → Workflow direction
+
+Publish diagram as a public link:
+
+File → Share → Link → Enable public access
+
+Deliverable: Public link to flowchart.
+
+ Task 2: Chatbot Setup with SwiftSell
+
+Scenario Recap: Create a lead qualification chatbot for NxtWave’s Free Career Kickstarter Webinar.
+
+Steps to Complete:
+
+Sign in to SwiftSell
+.
+
+Create a new chatbot.
+
+Lead Capture Node:
+
+Name
+
+Phone
+
+Email
+
+Qualifying Questions:
+
+Student / Working Professional
+
+Tech / Non-Tech
+
+Preferred career path (Full Stack / Data Science / AI-ML / Cybersecurity)
+
+Ready to start in next 30 days? (Yes / No)
+
+Conditional Logic:
+
+Example:
+
+Student + Tech + Final Year → Full Stack Fast-Track message
+
+Working Professional + Non-Tech → Encouragement message
+
+Not Interested → Exit politely
+
+Qualified Lead Email Notification:
+
+Use JSON format as provided
+
+Testing & Recording:
+
+Test end-to-end chatbot flow.
+
+Record screen using OBS, Loom, or similar.
+
+Upload to Google Drive → Set public access.
+
+Deliverables:
+
+Video link (showing end-to-end flow)
+
+Bot preview link
+
+ Task 3: Make Tool Integration
+
+Scenario Recap: Capture form data → save to Google Sheets → send confirmation email via Make (Integromat).
+
+Steps to Complete:
+
+Form Setup:
+
+Use Webflow
+ or Google Forms
+
+Collect Name + Email
+
+Make Automation Setup:
+
+Create scenario → Add Webhook module → Connect form submission
+
+Add Google Sheets module → Map Name & Email → Add as new row
+
+Add Gmail/Email module → Send confirmation email to the user
+
+Testing:
+
+Submit the form multiple times → verify rows in Google Sheet → verify confirmation emails
+
+Recording:
+
+Record the end-to-end flow (submission → sheet update → email)
+
+Upload to Google Drive → Make public
+
+Deliverables:
+
+Video link (end-to-end automation)
+
+Form link (public access)
+
+Google Sheet with responses
+
+ Final Submission Checklist
+
+ Task 1: Flowchart public link
+
+ Task 2: Video + Bot preview link
+
+ Task 3: Video + Form link + Google Sheet link
+
+ Test all links and flows
+
+ All links set to public access
